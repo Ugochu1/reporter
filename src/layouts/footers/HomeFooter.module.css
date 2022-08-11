@@ -1,0 +1,6 @@
+.homefooter {
+  background: linear-gradient(to left, rgb(46, 46, 48), rgb(25, 25, 31));
+  height: 20vh;
+  font-family: var(--buttonFont);
+  color: var(--white);
+}

@@ -1,0 +1,5 @@
+.value {
+  font-size: 3em;
+  color: rgb(18,59, 220);
+  font-family: var(--logofont);
+}

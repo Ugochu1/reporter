@@ -1,0 +1,153 @@
+.userDetails {
+  margin-top: 1em;
+}
+
+.profilePicture {
+  height: 6em;
+  width: 6em;
+  border: 2px solid rgb(14, 62, 140);
+  border-radius: 50%;
+  margin-right: 0.6em;
+}
+
+.userName {
+  font-size: 1.5em;
+  font-family: var(--logofont);
+}
+
+.editButton {
+  padding: 0.3em 0.5em;
+  background-color: rgb(176, 198, 235);
+  color: rgb(5, 93, 242);
+  font-family: var(--buttonFont);
+  border-radius: 0.25em;
+  margin-right: 5px;
+  transition: background-color 100ms ease;
+}
+
+.editButton:hover {
+  background-color: rgb(142, 178, 237);
+}
+
+.email {
+  font-family: var(--latofont);
+}
+
+.createButton {
+  background-color: rgb(15, 66, 150);
+  padding: 0.15em 0.5em;
+  font-family: var(--buttonFont);
+  border-radius: 0.25em;
+  margin-right: 5px;
+  transition: background-color 100ms ease;
+  color: var(--white);
+  text-align: center;
+}
+
+.createButton:hover {
+  background-color: rgb(7, 52, 125);
+}
+
+.searchBox {
+  background: rgb(209, 219, 232);
+  padding: 0.7em;
+  border-radius: 0.3em;
+  box-shadow: 1px 1px 1px rgb(232, 234, 237);
+}
+
+.searchHeader {
+  font-family: var(--logofont);
+  font-size: 1.1em;
+  margin: 5px 0;
+  color: rgb(8, 83, 199);
+  text-transform: uppercase;
+}
+
+.searchBar {
+  padding: 0.2em 0.4em;
+  width: 100%;
+  border-radius: 4px;
+  font-family: var(--latofont);
+  color: rgb(4, 43, 102);
+}
+
+.searchButton {
+  padding: 0.4em 0.6em;
+  color: var(--white);
+  background-color: rgb(15, 66, 150);
+  font-family: var(--buttonFont);
+  border-radius: 0.3em;
+  margin: 10px 0;
+  transition: background-color 100ms ease;
+}
+
+.searchButton:hover {
+  background-color: rgb(7, 52, 125);
+}
+
+.reportLog {
+  margin-top: 15px;
+}
+
+.reportStats {
+  padding: 1em;
+  text-align: center;
+}
+
+.reportStats:first-child {
+  background: rgb(209, 219, 232);
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.reportStats:last-child {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background: rgb(148, 194, 224);
+}
+
+.reportStatHeader {
+  text-transform: uppercase;
+  font-family: var(--latofont);
+  color: rgb(18, 58, 219);
+}
+
+.formBody {
+  margin: 4px;
+  font-family: var(--buttonFont);
+  transition: height 200ms ease;
+}
+
+.formInput {
+  padding: 0.2em 0.4em;
+  width: 100%;
+  background: rgb(242, 242, 247);
+  border: 1px solid gray;
+  margin-top: 3px;
+}
+
+.formInput:focus {
+  outline: none;
+}
+
+.category {
+  padding: 0.3em 0.5em;
+  background: rgb(203, 206, 209);
+  border-radius: 20px;
+  margin: 5px 10px 0 0;
+  border: 1px solid rgb(203, 206, 209);
+}
+
+.tab {
+  padding: 0.3em 0.5em;
+  margin: 0.3em;
+  border-radius: 4px;
+  font-family: var(--latofont);
+  border: 1px solid rgb(15, 66, 150);
+}
+
+.tab:hover {
+  background-color: rgba(15, 66, 150, 0.8);
+  color: var(--white);
+  cursor: pointer;
+}

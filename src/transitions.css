@@ -1,0 +1,36 @@
+.fadeIn {
+  opacity: 0;
+}
+
+.fadeIn.fadeIn-active {
+  opacity: 1;
+  transition: opacity 600ms ease-in-out;
+}
+
+.slideUp {
+  opacity: 0;
+  transform: translate(0, 40px);
+}
+
+.slideRight {
+  opacity: 0;
+  transform: translate(-100px, 0);
+}
+
+.slideLeft {
+  opacity: 0;
+  transform: translate(100px, 0);
+}
+
+.slideUp.slide-active,
+.slideLeft.slide-active,
+.slideRight.slide-active {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: opacity 600ms ease, transform 400ms linear;
+}
+
+.myHeader.to-blue {
+  background-color: rgb(24, 74, 140);
+  transition: background-color 300ms ease-in-out;
+}

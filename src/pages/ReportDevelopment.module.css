@@ -1,0 +1,9 @@
+.greeting {
+  padding: 0.4em;
+  font-family: var(--latofont);
+  color: rgb(5, 33, 89);
+}
+
+.info {
+  font-family: var(--logofont);
+}

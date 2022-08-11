@@ -1,0 +1,54 @@
+.profilePhoto {
+  height: 10em;
+  width: 10em;
+  border-radius: 50%;
+  border: 2px solid rgb(14, 62, 140);
+  margin-bottom: 1em;
+}
+
+.choosePicture {
+  padding: 0.3em 0.5em;
+  background-color: rgba(14, 62, 140, 0.2);
+  border-radius: 4px;
+  color: rgb(14, 62, 140);
+  font-family: var(--buttonFont);
+  transition: background-color 200ms ease;
+}
+
+.choosePicture:hover {
+  background-color: rgba(14, 62, 160, 0.4);
+}
+
+.formBody {
+  margin: 4px;
+  font-family: var(--buttonFont);
+  transition: height 200ms ease;
+}
+
+.formInput {
+  padding: 0.2em 0.4em;
+  width: 100%;
+  background: rgb(242, 242, 247);
+  border: 1px solid gray;
+  margin-top: 3px;
+}
+
+.formInput:focus {
+  outline: none;
+}
+
+.done {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5em;
+  padding: 0.6em;
+  background-color: rgb(14, 62, 140);
+  border-radius: 5px;
+  color: var(--white);
+  transition: background-color 200ms ease;
+  text-transform: uppercase;
+}
+
+.done:hover {
+  background-color: rgba(14, 62, 140, 0.8);
+}

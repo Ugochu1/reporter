@@ -1,0 +1,11 @@
+.errorImage {
+  height: 10em;
+  width: 10em;
+}
+
+.errorMessage {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: var(--logofont);
+  color: rgb(171, 136, 32);
+}

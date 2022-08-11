@@ -1,0 +1,35 @@
+.reportLine {
+  height: 2px;
+  width: 1em;
+  background: var(--white);
+  margin: 0.1em;
+}
+
+.reportCover {
+  border: 1px solid var(--white);
+  padding: 0.3em 0;
+  border-radius: 4px;
+}
+
+.soundwaveOne {
+  height: 1px;
+  width: 10px;
+  background: var(--white);
+  margin: 0.2em 0.1em;
+  transform: rotate(-30deg)
+}
+
+.soundwaveTwo {
+  height: 1px;
+  width: 9px;
+  background: var(--white);
+  margin: 0.1em;
+}
+
+.soundwaveThree {
+  height: 1px;
+  width: 10px;
+  background: var(--white);
+  margin: 0.2em 0.1em;
+  transform: rotate(30deg);
+}

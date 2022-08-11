@@ -1,0 +1,66 @@
+.logo {
+  margin: 0; /* very important that you always keep it in. */
+  font-family: var(--logofont);
+  line-height: 1.4;
+  margin-right: 3.5em;
+}
+
+.header {
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: var(--white);
+  z-index: 1;
+  background-color: none;
+  transition: background-color 300ms ease-in-out;
+}
+
+.navspan {
+  margin-bottom: 3px;
+  background: var(--white);
+  display: block;
+  height: 3px;
+  width: 20px;
+}
+
+.navbar {
+  color: var(--navblue);
+}
+
+.link {
+  margin: 0 10px;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: var(--latofont);
+  font-size: 0.8em;
+}
+
+.link:hover {
+  background: rgba(24, 57, 125, 0.9);
+  color: var(--white)
+}
+
+.dropdown {
+  position: absolute;
+  top: -250px;
+  background: var(--white);
+  left: 0;
+  right: 0;
+  padding: 10px;
+  transition: top .2s ease-in-out;
+}
+
+.dropdown .link {
+  right: 0;
+  left: 0;
+  padding: 10px;
+  margin-bottom: 5px;
+  color: rgb(13, 69, 143);
+}
+
+.dropdown .link:hover {
+  color: var(--white);
+}

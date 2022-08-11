@@ -1,0 +1,16 @@
+.messageType {
+  font-family: var(--latofont);
+  color: rgb(237, 21, 9);
+}
+
+.message {
+  font-family: var(--logofont);
+  color: rgb(25, 31, 224);
+}
+
+.mainBox {
+  padding: 0.4em 0.6em;
+  background: rgb(242, 242, 247);
+  border-radius: 10px;
+  border: 1px solid blue;
+}

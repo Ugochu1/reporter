@@ -1,0 +1,32 @@
+.overAll {
+  border: 1px solid rgb(165, 166, 168);
+  border-radius: 7px;
+  margin-top: 10px;
+  transition: border 200ms ease;
+  font-family: var(--logofont);
+}
+
+.overAll:hover {
+  border: 1px solid rgb(44, 111, 245);
+  box-shadow: 1px 1px 6px rgb(44, 111, 245);
+}
+
+.reportName {
+  font-family: var(--logofont);
+  color: rgb(3, 2, 3);
+  margin-right: 10px;
+  letter-spacing: .2;
+}
+
+.category {
+  padding: 0.3em 0.5em;
+  background: rgb(218, 220, 227);
+  border-radius: 20px;
+  margin: 5px 5px 0 0;
+  border: 1px solid rgb(203, 206, 209);
+  font-size: 0.8em;
+}
+
+.lastModified {
+  padding: 0.2em 0.4em;
+}

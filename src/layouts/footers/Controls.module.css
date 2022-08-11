@@ -1,0 +1,38 @@
+.fullBody {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid rgb(5, 33, 89);
+  background: white;
+  z-index: 1;
+}
+
+.addButton {
+  border: 1px solid rgb(5, 33, 89);
+  border-radius: 100px;
+  color: rgb(5, 33, 89);
+  transition: color 200ms ease, background-color 200ms ease;
+  margin: 2px;
+  font-family: var(--latofont);
+  text-align: center;
+}
+
+.addButton:last-child {
+  background-color: rgb(5, 33, 89);
+  color: var(--white);
+}
+
+.addButton:last-child:hover {
+  color: rgb(5, 33, 89);
+  background-color: var(--white);
+}
+
+.addButton:first-child:hover {
+  background-color: rgb(5, 33, 89);
+  color: var(--white);
+}
+
+.addFont {
+  font-family: var(--logofont);
+}

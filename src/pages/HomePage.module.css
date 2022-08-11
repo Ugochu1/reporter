@@ -1,0 +1,68 @@
+.writeUp {
+  background-image: url("https://media.istockphoto.com/photos/vintage-retro-grungy-background-design-and-pattern-texture-picture-id656453072?k=20&m=656453072&s=612x612&w=0&h=txuUmEpOZqegdZuQw8ibPeopn3oHW6kmpKZZAChvZjY=");
+  background-size: cover;
+  padding: 4em 15px;
+  text-align: center;
+  letter-spacing: 0.3;
+  box-shadow: 0 2px 6px gray;
+  height: 80vh;
+}
+
+.writeUpHeader {
+  color: var(--white);
+  font-family: var(--logofont);
+  line-height: 1.1;
+  text-transform: capitalize;
+}
+
+.writeUpBody {
+  color: var(--white);
+  font-family: var(--latofont);
+  margin: 10px 0;
+}
+
+
+.myboxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5em 1em;
+}
+
+.boxWriteUp {
+  font-family: var(--logofont);
+  text-align: center;
+  margin-top: 5px;
+  color: rgb(25, 25, 130)
+}
+
+.createButton {
+  padding: 0.7em 2em;
+  background-color: rgb(32, 68, 199);
+  margin-top: 1.5em;
+  border-radius: 7px;
+  font-size: 1em;
+  font-family: var(--buttonFont);
+  color: var(--white);
+  transition: background-color 100ms ease;
+}
+
+.createButton:hover {
+  background-color: rgba(32, 68, 199, 0.6);
+}
+
+.analysisButton {
+  padding: 0.7em 2em;
+  background-color: rgb(184, 101, 24);
+  margin-top: 1.5em;
+  border-radius: 7px;
+  font-size: 1em;
+  font-family: var(--buttonFont);
+  color: var(--white);
+  transition: background-color 100ms ease;
+}
+
+.analysisButton:hover {
+  background-color: rgba(184, 101, 24, 0.6);
+}
